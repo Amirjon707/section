@@ -1,0 +1,86 @@
+@media screen and (min-width: 850px) and (max-width: 1250px) {
+  .container {
+    width: 800px;
+  }
+  #testimonial h2 {
+    font-size: 45px;
+  }
+  #testimonial .content {
+    height: 500px;
+  }
+  #testimonial .content .txt .top p {
+    font-size: 35px;
+    line-height: 100%;
+  }
+  #testimonial .content .txt .top p span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+  }
+  #testimonial .content .txt .bottom {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 850px) {
+  .container {
+    width: 500px;
+  }
+  #testimonial h2 {
+    font-size: 37px;
+  }
+  #testimonial .content {
+    height: 300px;
+    flex-direction: column;
+  }
+  #testimonial .content .main-img {
+    margin: 30px 0;
+  }
+  #testimonial .content .txt .top {
+    margin-bottom: 30px;
+  }
+  #testimonial .content .txt .top p {
+    font-size: 28px;
+    line-height: 100%;
+  }
+  #testimonial .content .txt .top p span {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+  }
+  #testimonial .content .txt .bottom {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    width: 97%;
+  }
+  #testimonial h2 {
+    font-size: 37px;
+  }
+  #testimonial .content {
+    height: 300px;
+    flex-direction: column;
+  }
+  #testimonial .content .main-img {
+    margin: 0 0 22px;
+  }
+  #testimonial .content .txt .top {
+    margin-bottom: 15px;
+  }
+  #testimonial .content .txt .top p {
+    font-size: 23px;
+    line-height: 100%;
+  }
+  #testimonial .content .txt .top p span {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+  }
+  #testimonial .content .txt .bottom {
+    font-size: 12px;
+  }
+  #testimonial .content .txt .bottom .aftor {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=media.css.map */
